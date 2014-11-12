@@ -1,0 +1,25 @@
+
+.container {
+ 	margin: 0 auto;
+ 	width: 100%;
+ 	max-width: 1181px;
+}
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	clear: both;
+	*zoom: 1;
+}
+
+
+/*col-lg-1-5 refers to 1 column of 5 for large screens*/
+.col-lg-1-5 {
+	float: left;
+	width: 20%
+}

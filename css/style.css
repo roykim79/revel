@@ -1,0 +1,509 @@
+
+body {
+	font-family:  "ArialMT", "Arial", sans-serif;
+}
+.center {
+	text-align: center;
+}
+.inline {
+	display: inline;
+}
+.hide-mobile {
+	/*display: none;*/
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.pad-left {
+	padding-left: 20px;
+}
+.pad-sides {
+	padding: 0 20px;
+}
+
+
+/*BACKGROUNDS*/
+.banner {
+	background-image: url(../img/header/Banner_BG_Tile.png);
+	background-position: 50%;
+	background-repeat: repeat;
+	border-bottom: 1px solid #43464c;
+}
+.logo-bar {
+	background: #43464c;
+	border-bottom: 2px solid #626469;
+}
+.main {
+	border-left: 2px solid #ccc;
+	border-right: 2px solid #ccc;
+}
+.nav-bar {
+	background: #626469;
+	border-top: 1px solid #43464c;
+}
+.legal {
+	background: #42454a;
+	border-top: 5px solid #39baec;
+}
+.site-links {
+	background: url(../img/Global/Footer/Footer_BG_Tile.png) repeat;
+	padding: 70px 0 40px;
+}
+
+
+/*TYPOGRAPHY*/
+
+.banner {
+	color: #f1f1f1;
+}
+.banner h1 {
+	font-family: "HelveticaNeue-Thin", "Helvetica Neue" "Helvetica", sans-serif;
+	font-size: 45px;
+}
+.banner h2 {
+	font-family: "HelveticaNeue-Bold", "Helvetica Neue" "Helvetica", sans-serif;
+	font-size: 47px;
+	margin-bottom: 10px;
+}
+h3.item-name {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.legal {
+	font-family: "ArialMT", "Arial", sans-serif;
+	font-size: 11px;
+}
+.logo-bar {
+	color: #888;
+	font-family: "Arial-BoldMT", "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 70px;
+}
+.site-links {
+	color: #e8e8e8;
+	font-family: "ArialMT", "Arial", sans-serif;
+	font-size: 12px;
+}
+.site-links h5 {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+p.event {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue" "Helvetica", sans-serif;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+p.registry-number {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue" "Helvetica", sans-serif;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+/*NAVIGATIONS*/
+
+.legal ul {
+	color: #e8e8e8;
+	display: block;
+	margin: 0 auto;
+}
+.legal li {
+	display: inline-block;
+	line-height: 50px;
+}
+.legal a {
+	color: #e8e8e8;
+}
+.logo-bar .nav {
+	position: relative;
+}
+.logo-bar .nav a {
+	color: #39baec;
+}
+.nav li {
+	display: inline;
+}
+.nav-bar {
+	font-family: "ArialMT", "Arial", sans-serif;
+	font-size: 16px;
+}
+.nav-bar .nav li {
+	margin-right: 25px;
+}
+.nav-bar .nav a {
+	color: #f1f1f1;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+}
+.site-links li {
+	line-height: 1.5;
+}
+.site-links a {
+	color: #e8e8e8;
+	text-decoration: none;
+}
+
+/*TABLES*/
+table.registry {
+	/*border: 1px solid #888;*/
+	font-family:  "ArialMT", "Arial", sans-serif;
+	width: 100%;
+}
+.registry td,
+.registry th {
+	padding: 20px;
+}
+.registry th {
+	background: #eee;
+	font-size: 20px;
+}
+.registry tbody tr {
+	border-bottom: 1px solid #666;
+}
+.registry tbody tr:last-child {
+	border-bottom: none;
+}
+.item-details,
+.item-price {
+	text-align: left;
+}
+.item-requested,
+.item-purchased {
+	text-align: center;
+}
+.item-actions,
+.item-price,
+.item-requested,
+.item-purchased {
+	vertical-align: top;
+}
+.item-actions {
+	width: 250px;
+}
+.item-actions img {
+	margin-bottom: 20px;
+}
+td.item-price {
+	color: #39baec;
+	font-weight: bold;
+}
+.table-caption {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+/*ICONS for social media and payments*/
+.icon-row {
+	margin-bottom: 10px;
+}
+.icon-row img {
+	margin-right: 8px;
+}
+.payment-icon {
+	float: left;
+	height: 31px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	width: 51px;
+}
+.social-media li {
+	display: inline;
+	margin-right: 10px;
+}
+#amex,
+#discover,
+#mastercard,
+#visa {
+	background: url(../img/Global/Footer/Payment_Mark_CC.png);
+}
+#amex {
+	background-position: -130px;
+	width: 31px;
+}
+#discover {
+	background-position: -175px;
+}
+#mastercard {
+	background-position: -65px;
+}
+#visa {
+	background-position: 0;
+}
+#paymentBML {
+	margin-bottom: 2px;
+}
+
+/*SPECIAL*/
+.btn {
+	width: 100%;
+}
+.cart {
+	margin: 0 15px 0 10px;
+	position: relative;
+	top: 15px;
+}
+.gift-btn {
+	background-color: transparent;
+	border: 1px solid #f1f1f1;
+	border-radius: 10px;
+	color: #f1f1f1;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue", "Helvetica", sans-serif;
+	font-size: 18px;
+	line-height: 2.2;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	padding: 0 12px;
+}
+.inside-gift-cont {
+	bottom: 0;
+	left: 15px;
+	position: absolute;
+}
+.inside-heading-cont {
+	bottom: 0;
+	position: absolute;
+	/*vertical-align: bottom;*/
+}
+.items-img-cont {
+	position: relative;
+}
+.item-price-small {
+	display: none;
+}
+.outside-gift-cont {
+	background-image: url(../img/Global/Banner/Banner_GiftBox.png),
+					  url(../img/Global/Banner/Banner_GiftBox_outline.png);
+	background-position: 50% 35%;
+	background-repeat: no-repeat;
+	height: 270px;
+	position: relative;
+	width: 285px;
+}
+.outside-heading-cont {
+	position: relative;
+	height: 270px;
+	width: 600px;
+}
+.logo {
+	margin: 9px 0 0;
+}
+.logo-cont {
+	height: 70px;
+}
+li.notification {
+	background: url(../img/Global/Header/Cart_Notification.png) no-repeat;
+	color: #fff;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	width: 26px;
+}
+img.product-gifted {
+	position: absolute;
+	top: 0;
+}
+.show-xsmall {
+	display: none;
+}
+.searchbar {
+	background: url(../img/Global/Header/SearchBar.png) no-repeat;
+	border: none;
+	font-size: 16px;
+	margin-top: 5px;
+	outline: none;
+	padding: 11px 0;
+	text-indent: 35px;
+	width: 354px;
+}
+.wedding-img-cont {
+	padding: 43px 30px 30px 40px;
+}
+
+
+/*MEDIA QUERIES*/
+@media (max-width: 1150px) {
+	.item-img {
+		/*width: 79px;*/
+	}
+	.outside-gift-cont {
+		display: none;
+	}
+}
+@media (max-width: 1000px) {
+	.item-actions {
+		width: 200px;
+	}
+	.item-actions img {
+		/*margin-bottom: 20px;*/
+		width: 200px;
+	}
+	.item-img,
+	.product-gifted {
+		width: 125px;
+	}
+}
+@media (max-width: 950px) {
+	.banner h1 {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.banner h2 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	p.event {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	p.registry-number {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	h3.item-name {
+		font-weight: normal;
+		margin-bottom: 5px;
+	}
+	.outside-heading-cont {
+		position: relative;
+		height: inherit;
+		width: 70%;
+	}
+	.inside-heading-cont {
+		padding: 20px;
+		position: relative;
+	}
+	.hide-med {
+		display: none;
+	}
+	.item-price-small {
+		color: #39baec;
+		display: block;
+		margin-top: 5px;
+	}
+	.wedding-img-cont {
+		padding: 20px;
+	}
+	.wedding-img-cont img {
+		width: 150px;
+	}
+}
+@media (max-width: 800px) {
+	.col-med-1-1 {
+		width: 100%;
+	}
+	.hide-small {
+		display: none;
+	}
+	.logo-cont img {
+		margin-top: 20px;
+		width: 140px;
+	}
+	.nav-bar {
+		border-top: none;
+	}
+	.banner h1,
+	p.event,
+	p.registry-number {
+		font-size: 16px;
+	}
+	.banner h2 {
+		font-size: 20px;
+	}
+	.item-actions {
+		width: 100px;
+	}
+	.item-actions img {
+		margin-bottom: 10px;
+		width: 100px;
+	}
+	.item-img,
+	.product-gifted {
+		width: 73px;
+	}
+	th.item-details {
+		font-size: 16px;
+	}
+	.site-links {
+		padding: 20px 0;
+		text-align: center;
+	}
+	.social-media img {
+		width: 30px;
+	}
+	.table-caption {
+		font-size: 16px;
+		padding-left: 10px;
+	}
+	.wedding-img-cont img {
+		width: 100px;
+	}
+}
+@media (max-width: 550px) {
+	p.event,
+	p.registry-number {
+		font-size: 12px;
+	}
+	.banner h2 {
+		font-size: 16px;
+	}
+	.hide-xsmall {
+		display: none;
+	}
+	.inside-heading-cont {
+		padding: 20px 0 10px;
+		position: relative;
+	}
+	.nav-bar {
+		font-size: 14px;
+	}
+	.outside-heading-cont {
+		position: relative;
+		height: inherit;
+		width: 70%;
+	}
+	.registry th {
+		font-size: 14px;
+		padding: 10px;
+	}
+	.registry td {
+		font-size: 12px;
+		padding: 10px;
+	}
+	.show-xsmall {
+		display: inline-block;
+	}
+	.site-links {
+		padding: 20px 0;
+		text-align: center;
+	}
+	.site-links h5 {
+		font-size: 12px;
+	}
+	.social-media img {
+		width: 22px;
+	}
+	.social-media li {
+		margin-right: 5px;
+	}
+	.table-caption {
+		font-size: 14px;
+	}
+	.wedding-img-cont {
+		padding: 20px 10px;
+	}
+	.wedding-img-cont img {
+		width: 80px;
+	}
+}
+
+
+
+
+

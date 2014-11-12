@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset='utf-8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+		<title>Smart Shop</title>
+
+		<link rel='stylesheet' href='css/reset.css'>
+		<link rel='stylesheet' href='css/grid.css'>
+		<link rel='stylesheet' href='css/style.css'>
+	</head>
+	<body>
+		<!-- START header -->
+		<header>
+			<!-- START logo bar -->
+			<div class="logo-bar">
+				<div class="container group">
+					<div class="pad-sides">
+						<div class="left logo-cont">
+							<img class="logo" src="img/Global/Header/Logo.png">
+						</div>
+						<div class="right hide-med">
+							<ul class="nav">
+								<li><a href="">Sign in</a></li> |
+								<li><a href="">Sign up</a></li>
+								<li>
+									<img class="cart" src="img/Global/Header/Cart_Icon.png">
+								</li>
+								<li class="notification center">
+									0
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END logo bar -->
+			<!-- START nav bar -->
+			<div class="nav-bar">
+				<div class="container group">
+					<div class="pad-sides">
+						<div class="left">
+							<ul class="nav">
+								<li><a href="">SHOP</a></li>
+								<li><a href="">GIFT REGISTRY</a></li>
+								<li><a href="">SALE</a></li>
+							</ul>
+						</div>
+						<div class="right searchbar-cont hide-med">
+							<input class="searchbar" type="text" placeholder="Search">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- START banner -->
+			<div class="banner">
+				<div class="container group">
+					<div class="left wedding-img-cont">
+						<img class="hide-xsmall" src="img/Global/Banner/Wedding_Image.png">
+						<img class="show-xsmall" src="img/header/Wedding_Image.png">
+					</div>
+
+					<div class="left outside-heading-cont">
+						<div class="inside-heading-cont">
+							<h1>Gift Registry</h1>
+							<h2>Rick's Wedding</h2>
+							<p class="event">Event: Wedding Ceremony | Date: 20, July, 2014</p>
+							<p class="registry-number">Registry Number: 12345678</p>
+						</div>
+					</div>
+					<div class="left outside-gift-cont">
+						<div class="inside-gift-cont">
+							<button class="gift-btn">EDIT GIFT</button>
+							<button class="gift-btn">CANCEL GIFT</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- END banner -->
+		</header>
+		<!-- END header -->
+		<!-- START main -->
+		<div class="main container">
+			<div class="table-caption">Kitchen</div>
+			<!-- START table -->
+			<table class="registry">
+				<thead>
+					<tr>
+						<th class="item-details">Item Details</th>
+						<th class="item-price hide-med">Price</th>
+						<th class="item-requested hide-med">Requested</th>
+						<th class="item-purchased hide-med">Purchased</th>
+						<th>&nbsp;</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- START item -->
+					<tr>
+						<td class="item-details group">
+							<div class="items-img-cont left">
+								<img class="item-img" src="img/item/item_thumb_1001.png" alt="blender">
+								<img class="product-gifted" src="img/icons/Product_Gifted.png" hidden>
+							</div>
+							<div class="left pad-left">
+								<h3 class="item-name">Blender</h3>
+								<p class="item-description">Description</p>
+								<p class="item-price-small">$499.00</p>
+							</div>
+						</td>
+						<td class="item-price hide-med">$499.00</td>
+						<td class="item-requested hide-med">1</td>
+						<td class="item-purchased hide-med">0</td>
+						<td class="item-actions">
+							<a href=""><img class="GroupGift-enabled" src="img/icons/GroupGift_Btn.png"></a>
+							<a href=""><img class="GroupGift-disabled" src="img/icons/GroupGift_Disabled_Btn.png" hidden></a>
+							<a href=""><img src="img/icons/AddToCart_Btn.png"></a>
+						</td>
+					</tr>
+					<!-- END item -->
+					<!-- START item -->
+					<tr>
+						<td class="item-details group">
+							<div class="items-img-cont left">
+								<img class="item-img" src="img/item/item_thumb_1002.png" alt="vacuum cleaner">
+								<img class="product-gifted" src="img/icons/Product_Gifted.png">
+							</div>
+							<div class="left pad-left">
+								<h3 class="item-name">Vacuum Cleaner</h3>
+								<p class="item-description">Description</p>
+								<p class="item-price-small">$499.00</p>
+							</div>
+						</td>
+						<td class="item-price hide-med">$499.00</td>
+						<td class="item-requested hide-med">1</td>
+						<td class="item-purchased hide-med">1</td>
+						<td class="item-actions">
+							<a href=""><img class="GroupGift-enabled" src="img/icons/GroupGift_Btn.png" hidden></a>
+							<a href=""><img class="GroupGift-disabled" src="img/icons/GroupGift_Disabled_Btn.png"></a>
+							<a href=""><img src="img/icons/AddToCart_Btn.png"></a>
+						</td>
+					</tr>
+					<!-- END item -->
+					<!-- START item -->
+					<tr>
+						<td class="item-details group">
+							<div class="items-img-cont left">
+								<img class="item-img" src="img/item/item_thumb_1003.png" alt="knife set">
+								<img class="product-gifted" src="img/icons/Product_Gifted.png" hidden>
+							</div>
+							<div class="left pad-left">
+								<h3 class="item-name">Knife Set</h3>
+								<p class="item-description">Description</p>
+								<p class="item-price-small">$89.00</p>
+							</div>
+						</td>
+						<td class="item-price hide-med">$89.00</td>
+						<td class="item-requested hide-med">1</td>
+						<td class="item-purchased hide-med">0</td>
+						<td class="item-actions">
+							<a href=""><img class="GroupGift-enabled" src="img/icons/GroupGift_Btn.png"></a>
+							<a href=""><img class="GroupGift-disabled" src="img/icons/GroupGift_Disabled_Btn.png" hidden></a>
+							<a href=""><img src="img/icons/AddToCart_Btn.png"></a>
+						</td>
+					</tr>
+					<!-- END item -->
+					<!-- START item -->
+					<tr>
+						<td class="item-details group">
+							<div class="items-img-cont left">
+								<img class="item-img" src="img/item/item_thumb_1004.png" alt="pots & pans">
+								<img class="product-gifted" src="img/icons/Product_Gifted.png" hidden>
+							</div>
+							<div class="left pad-left">
+								<h3 class="item-name">Pots &amp; Pans Set</h3>
+								<p class="item-description">Description</p>
+								<p class="item-price-small">$169.00</p>
+							</div>
+						</td>
+						<td class="item-price hide-med">$160.00</td>
+						<td class="item-requested hide-med">1</td>
+						<td class="item-purchased hide-med">0</td>
+						<td class="item-actions">
+							<a href=""><img class="GroupGift-enabled" src="img/icons/GroupGift_Btn.png"></a>
+							<a href=""><img class="GroupGift-disabled" src="img/icons/GroupGift_Disabled_Btn.png" hidden></a>
+							<a href=""><img src="img/icons/AddToCart_Btn.png"></a>
+						</td>
+					</tr>
+					<!-- END item -->
+					<!-- START item -->
+					<tr>
+						<td class="item-details group">
+							<div class="items-img-cont left">
+								<img class="item-img" src="img/item/item_thumb_1005.png" alt="bedroom set">
+								<img class="product-gifted" src="img/icons/Product_Gifted.png" hidden>
+							</div>
+							<div class="left pad-left">
+								<h3 class="item-name">Bedroom Set</h3>
+								<p class="item-description">Description</p>
+								<p class="item-price-small">$69.00</p>
+							</div>
+						</td>
+						<td class="item-price hide-med">$69.00</td>
+						<td class="item-requested hide-med">1</td>
+						<td class="item-purchased hide-med">0</td>
+						<td class="item-actions">
+							<a href=""><img class="GroupGift-enabled" src="img/icons/GroupGift_Btn.png"></a>
+							<a href=""><img class="GroupGift-disabled" src="img/icons/GroupGift_Disabled_Btn.png" hidden></a>
+							<a href=""><img src="img/icons/AddToCart_Btn.png"></a>
+						</td>
+					</tr>
+					<!-- END item -->
+					<!-- START item -->
+					<tr>
+						<td class="item-details group">
+							<div class="items-img-cont left">
+								<img class="item-img" src="img/item/item_thumb_1006.png" alt="suitcase">
+								<img class="product-gifted" src="img/icons/Product_Gifted.png">
+							</div>
+							<div class="left pad-left">
+								<h3 class="item-name">Suitcase</h3>
+								<p class="item-description">Description</p>
+								<p class="item-price-small">$107.00</p>
+							</div>
+						</td>
+						<td class="item-price hide-med">$107.00</td>
+						<td class="item-requested hide-med">1</td>
+						<td class="item-purchased hide-med">1</td>
+						<td class="item-actions">
+							<a href=""><img class="GroupGift-enabled" src="img/icons/GroupGift_Btn.png" hidden></a>
+							<a href=""><img class="GroupGift-disabled" src="img/icons/GroupGift_Disabled_Btn.png"></a>
+							<a href=""><img src="img/icons/AddToCart_Btn.png"></a>
+						</td>
+					</tr>
+					<!-- END item -->
+				</tbody>
+			</table>
+			<!-- END table -->
+		</div>
+		<!-- END main -->
+		<!-- START footer -->
+		<footer>
+			<!-- START site links -->
+			<div class="site-links">
+				<div class="pad-sides">
+					<div class="container group">
+						<div class="col-lg-1-5 col-med-1-1">
+							<h5>ABOUT US</h5>
+							<ul class="hide-small">
+								<li><a href="">About Smartshop</a></li>
+								<li><a href="">Press Room</a></li>
+								<li><a href="">Careers</a></li>
+								<li><a href="">Investor Relations</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-1-5 col-med-1-1">
+							<h5>Smartshop CARD</h5>
+							<ul class="hide-small">
+								<li><a href="">Smartshop Card</a></li>
+								<li><a href="">Apply now and save today</a></li>
+								<li><a href="">Activate card</a></li>
+								<li><a href="">Review your card benefits</a></li>
+								<li><a href="">Pay my bill</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-1-5 col-med-1-1">
+							<h5>CUSTOMER SERVICE</h5>
+							<ul class="hide-small">
+								<li><a href="">Track an order</a></li>
+								<li><a href="">Return an item</a></li>
+								<li><a href="">Shipping information</a></li>
+								<li><a href="">Contact us</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-1-5 col-med-1-1">
+							<h5>PAYMENT METHODS</h5>
+							<div class="icon-row hide-small">
+								<img id="paymentPP" src="img/Global/Footer/Payment_Mark_PP.png">
+								<img id="paymentBML" src="img/Global/Footer/Payment_Mark_BML.png">
+							</div>
+							<div class="icon-row hide-small group">
+								<div id="visa" class="payment-icon"></div>
+								<div id="mastercard" class="payment-icon"></div>
+								<div id="amex" class="payment-icon"></div>
+								<div id="discover" class="payment-icon"></div>
+							</div>
+						</div>
+						<div class="col-lg-1-5 col-med-1-1">
+							<h5>GET CONNECTED</h5>
+							<ul class="social-media">
+								<li><a href=""><img src="img/Global/Footer/Footer_Icons_Facebook.png" alt="Facebook"></a></li>
+								<li><a href=""><img src="img/Global/Footer/Footer_Icons_Pinterest.png" alt="Pinterest"></a></li>
+								<li><a href=""><img src="img/Global/Footer/Footer_Icons_Twitter.png" alt="Twitter"></a></li>
+								<li><a href=""><img src="img/Global/Footer/Footer_Icons_Youtube.png" alt="Youtube"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END site links -->
+			<!-- START legal -->
+			<div class="legal">
+				<div class="container">
+					<ul class="center">
+						<li>&copy; 2014 SMARTSHOP ALL RIGHTS RESERVED.</li>
+						<div class="hide-small inline">
+							<li><a href="">PRIVACY POLICY</a> | </li>
+							<li><a href="">TERMS &amp; CONDITIONS</a></li>
+						</div>
+						
+					</ul>
+				</div>
+			</div>
+			<!-- END legal -->
+		</footer>
+		<!-- END footer -->
+
+
+	</body>
+</html>
